@@ -1,18 +1,6 @@
 """ilayoutx root module."""
 
-# from ilayoutx._ilayoutx import __version__
-try:
-    from ilayoutx._ilayoutx import __version__
-except ImportError:
-    __version__ = "0.0.0"
-from ilayoutx import (
-    layouts,
-    packing,
-    routing,
-    experimental,
-)
-
-
+from ilayoutx._ilayoutx import __version__
 
     __version__ = "0.0.0"
 __all__ = (
