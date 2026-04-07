@@ -1,21 +1,8 @@
 # API Reference
-## Layouts
-```{eval_rst}
-.. automodule:: ilayoutx.layouts
-   :members:
-   :undoc-members:
-   :show-inheritance:
+```{eval-rst}
+.. note::
 
-.. automodule:: ilayoutx.packing
-   :members:
-   :undoc-members:
-   :show-inheritance:
+   A note written in reStructuredText.
 
-.. automodule:: ilayoutx.routing
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-- layouts
-- edge routing
-- packaging
+.. include:: ./include-rst.rst
+```
