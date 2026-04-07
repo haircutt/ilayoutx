@@ -3,7 +3,6 @@
 # For the full list of built-in configuration values, see the documentation:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
 
-
 import ilayoutx 
 
 # -- Project information -----------------------------------------------------
@@ -94,6 +93,7 @@ html_theme_options = {
 # -----------------------------------------------------------------------------
 # Source code links (credit to the matplotlib project for this part)
 # -----------------------------------------------------------------------------
+
 link_github = True
 # You can add build old with link_github = False
 
@@ -144,18 +144,18 @@ if link_github:
 
         linespec = f"#L{lineno:d}-L{lineno + len(source) - 1:d}" if lineno else ""
 
-        startdir = Path(iplotx.__file__).parent.parent
+        startdir = Path(ilayoutx.__file__).parent.parent
         try:
             fn = os.path.relpath(fn, start=startdir).replace(os.path.sep, "/")
         except ValueError:
             return None
 
-        if not fn.startswith("iplotx/"):
+        if not fn.startswith("ilayoutxx/"):
             return None
 
-        version = parse_version(iplotx.__version__)
+        version = parse_version(ilayoutxx.__version__)
         tag = "main" if version.is_devrelease else f"v{version.public}"
-        return f"https://github.com/fabilab/iplotx/blob/{tag}/{fn}{linespec}"
+        return f"https://github.com/fabilab/ilayoutxx/blob/{tag}/{fn}{linespec}"
 
 else:
     extensions.append("sphinx.ext.viewcode")

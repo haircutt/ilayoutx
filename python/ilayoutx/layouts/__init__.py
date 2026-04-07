@@ -1,4 +1,7 @@
-"""Node layout algorithms for ilayoutx."""
+"""
+Node layout algorithms for ilayoutx.
+
+"""
 
 from .basic_layouts import (
     line,

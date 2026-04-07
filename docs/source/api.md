@@ -1,3 +1,6 @@
 # API Reference
 ```{eval-rst}
-.. automodule:: ilayoutx
+.. automodule:: ilayoutx.layouts
+   :members:
+   :member-order: bysource
+   :undoc-members:
