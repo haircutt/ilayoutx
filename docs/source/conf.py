@@ -94,7 +94,11 @@ html_theme_options = {
 # Source code links (credit to the matplotlib project for this part)
 # -----------------------------------------------------------------------------
 
+import sys
+import os
 link_github = True
+from pathlib import Path
+from packaging.version import parse as parse_version
 # You can add build old with link_github = False
 
 if link_github:
@@ -150,12 +154,12 @@ if link_github:
         except ValueError:
             return None
 
-        if not fn.startswith("ilayoutxx/"):
+        if not fn.startswith("ilayoutx/"):
             return None
 
-        version = parse_version(ilayoutxx.__version__)
+        version = parse_version(ilayoutx.__version__)
         tag = "main" if version.is_devrelease else f"v{version.public}"
-        return f"https://github.com/fabilab/ilayoutxx/blob/{tag}/{fn}{linespec}"
+        return f"https://github.com/fabilab/ilayoutx/blob/{tag}/{fn}{linespec}"
 
 else:
     extensions.append("sphinx.ext.viewcode")
