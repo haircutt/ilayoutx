@@ -1,12 +1,12 @@
 """ilayoutx root module."""
 
-from ilayoutx._ilayoutx import __version__
+from . import layouts, packing, routing, experimental
 
-    __version__ = "0.0.0"
-__all__ = (
-    __version__,
-    layouts,
-    packing,
-    routing,
-    experimental,
-)
+__version__ = "0.3.0"
+
+__all__ = [
+    "layouts",
+    "packing",
+    "routing",
+    "experimental",
+]
