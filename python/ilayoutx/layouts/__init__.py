@@ -26,6 +26,7 @@ from .lgl_layouts import large_graph_layout
 from .dendrogram_layouts import (
     rectangular_dendrogram,
     circular_dendrogram,
+    edgebundle,
 )
 
 
@@ -50,4 +51,5 @@ __all__ = (
     large_graph_layout.__name__,
     rectangular_dendrogram.__name__,
     circular_dendrogram.__name__,
+    edgebundle.__name__,
 )
