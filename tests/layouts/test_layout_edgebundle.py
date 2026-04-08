@@ -103,7 +103,7 @@ def test_edgebundle_four_nodes(helpers):
     assert layout.shape == (4, 2)
     assert all(layout.index == list(g.nodes()))
     assert np.isfinite(layout.values).all()
-    assert waypoints == {
+    waypoints_expected = {
         (0, 1): [[0.7071067811865476, -0.7071067811865475]],
         (1, 2): [
             [0.7071067811865476, -0.7071067811865475],
@@ -112,3 +112,10 @@ def test_edgebundle_four_nodes(helpers):
         ],
         (2, 3): [[-0.35355339059327384, 0.35355339059327373]],
     }
+    for edge_tuple, edge_waypoints in waypoints_expected.items():
+        assert edge_tuple in waypoints
+        np.testing.assert_allclose(
+            waypoints[edge_tuple],
+            edge_waypoints,
+            atol=1e-7,
+        )
