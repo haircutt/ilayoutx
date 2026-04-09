@@ -6,7 +6,7 @@
 
 
 ```{eval-rst}
-.. autoclass:: iplotx.ingest.typing.NetworkDataProvider
+.. autoclass:: ilayoutx.ingest.typing.NetworkDataProvider
     :members:
 
 ```
