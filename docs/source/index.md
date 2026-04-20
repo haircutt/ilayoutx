@@ -21,4 +21,5 @@ api/layouts
 api/routing
 api/packing
 api/providers
+featureTable
 ```
