@@ -1,21 +1,23 @@
 # Layouts
 
-| Shape  | Angle (theta) | Center control | Scaling | Random seed | Sizing | Additional notes |
-|--------|----------------|----------------|---------|-------------|--------| --------|
-| Line   | ✓              | ✕              | ✕       | ✕           | ✕      | 
-| Circle | ✓              | ✓              | ✓       | ✕           | ?      |
-| Shell  | ✓              | ✓              | ✓       | ✕           | ✕      |
-| Spiral | ✓              | ✓              | ✓       | ✕           | ✕      |
-| Random | ✕              | ✕              | ✕       | ✓           | ✕      |
-| Grid   | ✕              | ✕              | ✓       | ✕           | ✕      |
-| Bipartite   | ✕              | ✕              | ✓       | ✕           | ✕      |
-| Multipartite   | ✕              | ✕              | ✓       | ✕           | ✕      |
-| Sugiyama   | ✕              | ✕              | ✓       | ✕           | ✕      |
-| Spring   | ✕              | ✕              | ✓       | ✕           | ✕      |
-| Exponent attraction   | ✕              | ✕              | ✓       | ✕           | ✕      |
-| Exponent repulsion   | ✕              | ✕              | ✓       | ✕           | ✕      |
-| Arf   | ✕              | ✕              | ✓       | ✕           | ✕      |
-| Forceatlas2   | ✕              | ✕              | ✓       | ✕           | ✕      |
-| Graph embedder   | ✕              | ✕              | ✓       | ✕           | ✕      |
-| Large graph layout   | ✕              | ✕              | ✓       | ✕           | ✕      |
+| Shape | Angle (theta) | Center control | Scaling | Random seed | Sizing | max iter | Additional notes |
+|-|-|-|-|-|-|-| -|
+| Line| ✓ | ✕ | ✕| ✕| ✕ | 
+| Circle | ✓ | ✓ | ✓| ✕| ? |
+| Shell | ✓ | ✓ | ✓| ✕| ✕ |
+| Spiral | ✓ | ✓ | ✓| ✕| ✕ |
+| Random | ✕ | ✕ | ✕| ✓| ✕ |
+| Grid | ✕ | ✕ | ✓| ✕| ✕ |
+| Bipartite | ✕ | ✓ | ✕ | ✕| ✕ |
+| Multipartite | ✕ | ✓ | ✕| ✕| ✕ |
+| Sugiyama | ✕ | ✓ | ✕ | ✕| ✕ |
+| Spring | ✕ | ✕ | ✓ | ✓ | ✓ |
+| Kamada Kawai | ✕ | ✕ | ✕ | ✓ | ✕ |
+| Arf | ✕ | ✓ | ✓ | ✓| ✕ |
+| Forceatlas2| ✕| ✓ | ✓| ✓ | ✓ |
+| Graph embedder| ✕| ✓ | ✓ | ✓ | ✓ |
+| Large graph layout| ✕ | ✓ | ✓| ✓| ✕ |
+| Geometric | ✕ | ✓ | ✕ | ✓| ✕ |
+| Multidimensional scaling | ✕ | ✓ | ✕ | ✕ | ✕ |
+| UMAP | ✕ | ✕ | ✕ | ✕ | ✕ |
 
