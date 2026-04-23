@@ -11,15 +11,14 @@ Visualisation of the layouted/routed graphs can be done with [iplotx](https://ip
 :titlesonly:
 :hidden:
 
-
 installing
 API <api>
 Data providers <providers>
+Feature table <feature_table>
 Code of conduct <code_of_conduct>
 Contributing <contributing>
 api/layouts
 api/routing
 api/packing
 api/providers
-feature_table
 ```
